@@ -35,7 +35,7 @@ class Prihlasenie extends Controller {
                     header('Location: /');
                     exit();
                 } else {
-                    $login_error = '<div class="alert alert-danger alert-dismissible fade show container">
+                    $login_error = '<div class="alert alert-danger alert-dismissible fade show">
                                         <strong>Chyba!</strong> Neplatné prihlasovacie údaje!
                                         <button type="button" class="close" data-dismiss="alert">&times;</button>
                                     </div>';
